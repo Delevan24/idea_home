@@ -5,7 +5,7 @@ import com.peter.spring.offer.method.Interface.DataProcessHandler;
 import java.io.UnsupportedEncodingException;
 
 public class FileLineDataHandler implements DataProcessHandler {
-	private String encode = "GBK";
+	private String encode = "UTF-8";
 	
 	@Override
 	public void process(byte[] data) {
